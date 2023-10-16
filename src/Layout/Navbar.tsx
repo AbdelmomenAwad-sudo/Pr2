@@ -156,7 +156,7 @@ export default function SearchAppBar() {
           </Popover>
           <StyledLink to="/">
             <img
-              src={"./images/pngtree-beauty-logo-png-image_8187383.png"}
+              src={`url('./images/pngtree-beauty-logo-png-image_8187383.png')`}
               alt="Logo"
               style={{
                 height: "50px",
