@@ -3,6 +3,6 @@ declare namespace NodeJS {
   interface ProcessEnv {
     //types of envs
     NODE_ENV: "development" | "production" | "test";
-    PUBLIC_URL: string = "http://localhost:5000";
+    PUBLIC_URL: string = "https://pr2-backend.vercel.app";
   }
 }
