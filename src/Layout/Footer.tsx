@@ -47,7 +47,7 @@ const SocialIconsContainer = styled("ul")({
 const Footer = () => {
   return (
     <FooterContainer>
-      <Container>
+      {/* <Container>
         <Grid container>
           <Grid item xs={12} sm={6}>
             <Heading variant="h5">Find us</Heading>
@@ -87,7 +87,7 @@ const Footer = () => {
             </SocialIconsContainer>
           </Grid>
         </Grid>
-      </Container>
+      </Container> */}
     </FooterContainer>
   );
 };
